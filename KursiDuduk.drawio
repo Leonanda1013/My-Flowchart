@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T04:32:20.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.2" etag="33Rlh8y8fY3YKzAd8Jzo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T04:46:00.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1lqJ4LRxAPfeLXSbbdm4" version="21.8.2" type="github">
   <diagram name="Page-1" id="IpSLOg1V-IFURideDpcO">
-    <mxGraphModel>
+    <mxGraphModel dx="2036" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-1" target="zL02i8y22cRE-xZ0oMuS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-2" target="zL02i8y22cRE-xZ0oMuS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-2" value="String kursi;&lt;br&gt;String kursi2;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-4" target="zL02i8y22cRE-xZ0oMuS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-4" value="Kursi duduk" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-6" target="zL02i8y22cRE-xZ0oMuS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-13" value="&lt;b&gt;YA&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zL02i8y22cRE-xZ0oMuS-9">
+          <mxGeometry x="-0.2333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-6" target="zL02i8y22cRE-xZ0oMuS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-12" value="&lt;b&gt;TIDAK&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zL02i8y22cRE-xZ0oMuS-11">
+          <mxGeometry x="-0.6" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-6" target="zL02i8y22cRE-xZ0oMuS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-6" value="kursi == kursi2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="620" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-8" target="zL02i8y22cRE-xZ0oMuS-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-8" value="Kursi tidak tersedia" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="635" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zL02i8y22cRE-xZ0oMuS-10" target="zL02i8y22cRE-xZ0oMuS-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-10" value="Kursi tersedia" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zL02i8y22cRE-xZ0oMuS-14" value="Done" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="795" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
