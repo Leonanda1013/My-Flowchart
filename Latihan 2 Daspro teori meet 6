@@ -1,9 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T08:00:00.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.2" etag="PvCUq2oTtSDEvj8IEYyP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T08:26:21.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1PAIeUsu86YNeeXWdfla" version="22.0.2" type="github">
   <diagram name="Page-1" id="O1kW9_wYqi9lJsk3Wr6A">
-    <mxGraphModel>
+    <mxGraphModel dx="2800" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-1" target="D7BzWW8SWFuKsy1DvZD5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-2" target="D7BzWW8SWFuKsy1DvZD5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-2" value="String jenisBuku&lt;br&gt;int jmlBuku&lt;br&gt;int harga&lt;br&gt;int totHarga" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-4" target="D7BzWW8SWFuKsy1DvZD5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-4" value="Jenis Buku&lt;br&gt;Jumlah Buku&lt;br&gt;Harga 1 Buku" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-6" target="D7BzWW8SWFuKsy1DvZD5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-6" value="totHarga = jmlBuku*harga" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-8" target="D7BzWW8SWFuKsy1DvZD5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-8" target="D7BzWW8SWFuKsy1DvZD5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-8" value="jenisBuku = &quot;kamus&quot;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;jmlBuku &amp;lt;= 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-10" target="D7BzWW8SWFuKsy1DvZD5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-10" target="D7BzWW8SWFuKsy1DvZD5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-10" value="jenisBuku = &quot;kamus&quot;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;jmlBuku &amp;gt; 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="730" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-13" target="D7BzWW8SWFuKsy1DvZD5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-13" target="D7BzWW8SWFuKsy1DvZD5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-13" value="jenisBuku = &quot;novel&quot;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;jmlBuku == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="960" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-15" target="D7BzWW8SWFuKsy1DvZD5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-15" target="D7BzWW8SWFuKsy1DvZD5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-15" value="jenisBuku = &quot;novel&quot;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;jmlBuku &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1190" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-17" target="D7BzWW8SWFuKsy1DvZD5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-17" target="D7BzWW8SWFuKsy1DvZD5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-17" value="jenisBuku = &quot;novel&quot;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;jmlBuku &amp;gt; 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1390" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-19" target="D7BzWW8SWFuKsy1DvZD5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-19" target="D7BzWW8SWFuKsy1DvZD5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-19" value="jmlBuku &amp;gt; 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="1620" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-21" target="D7BzWW8SWFuKsy1DvZD5-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-21" value="jmlBuku &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43.75" y="1821" width="127.5" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-25" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Discount = 10%&lt;br&gt;println Discount = totHarga*0.1&lt;br&gt;println Anda harus membayar + (totHarga-totHarga*0.1)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="572.5" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1097" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-27" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Discount = 10%&lt;br&gt;println Discount = totHarga*0.1&lt;br&gt;println Anda harus membayar + (totHarga-totHarga*0.1)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="762.5" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-28" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Discount = 7%&lt;br&gt;println Discount = totHarga*0.07&lt;br&gt;println Anda harus membayar + (totHarga-totHarga*0.07)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="992.5" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-31" target="D7BzWW8SWFuKsy1DvZD5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-31" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Discount = 8%&lt;br&gt;println Discount = totHarga*0.08&lt;br&gt;println Anda harus membayar + (totHarga-totHarga*0.08)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1222.5" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-33" target="D7BzWW8SWFuKsy1DvZD5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-33" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Discount = 9%&lt;br&gt;println Discount = totHarga*0.09&lt;br&gt;println Anda harus membayar + (totHarga-totHarga*0.09)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1422.5" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-35" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Discount = 5%&lt;br&gt;println Discount = totHarga*0.05&lt;br&gt;println Anda harus membayar + (totHarga-totHarga*0.05)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1632.5" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7BzWW8SWFuKsy1DvZD5-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-37" value="println &quot;Harga&quot; + jmlBuku + jenisBuku + &quot;adalah&quot; +totHarga&lt;br&gt;println Anda harus membayar + totHarga" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1833" width="380" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D7BzWW8SWFuKsy1DvZD5-40" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1320" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
