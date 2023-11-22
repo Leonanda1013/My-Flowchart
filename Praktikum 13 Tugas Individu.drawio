@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T03:13:19.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="TZqNyiUo4gJOrLy-EOW3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T05:09:30.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="eAH8SMyJSlVfQMtqaJtY" version="22.1.3" type="github">
   <diagram name="Page-1" id="Fb_IhTzSx2oA5lqcgLN9">
-    <mxGraphModel>
+    <mxGraphModel dx="3733" dy="1567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M36KPIXP7OIXoPn5piOb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-2" target="M36KPIXP7OIXoPn5piOb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-3" target="M36KPIXP7OIXoPn5piOb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-3" value="&lt;div&gt;&lt;div&gt;static final int JUMLAH_MAHASISWA = 5;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; static final int JUMLAH_MINGGU = 7;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;int[][] nilaiMahasiswa = new int[JUMLAH_MAHASISWA][JUMLAH_MINGGU];&lt;/div&gt;&lt;div&gt;String[] namaMahasiswa = {&quot;Sari&quot;, &quot;Rina&quot;, &quot;Yani&quot;, &quot;Dwi&quot;, &quot;Lusi&quot;};&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-5" target="M36KPIXP7OIXoPn5piOb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-5" value="inputNilaiMahasiswa(nilaiMahasiswa, namaMahasiswa);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-7" target="M36KPIXP7OIXoPn5piOb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-7" value="tampilkanNilaiMahasiswa(nilaiMahasiswa, namaMahasiswa);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="460" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-11" target="M36KPIXP7OIXoPn5piOb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-11" value="int hariTertinggi = cariHariTertinggi(nilaiMahasiswa);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="570" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-15" target="M36KPIXP7OIXoPn5piOb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-15" value="System.out.println(&quot;Hari dengan nilai tertinggi adalah Minggu ke-&quot; + (hariTertinggi + 1));" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="660" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M36KPIXP7OIXoPn5piOb-17" target="M36KPIXP7OIXoPn5piOb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-17" value="&amp;nbsp;tampilkanMahasiswaNilaiTertinggi(nilaiMahasiswa, namaMahasiswa, hariTertinggi);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="790" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M36KPIXP7OIXoPn5piOb-19" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="900" width="140" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
